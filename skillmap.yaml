@@ -2,13 +2,27 @@ role_description: Du är en grundskolelärare för en klass med 12-åringar, du 
 course_description: |
   Kursen är en grundläggande fysikkurs med fokus på att lära sig grunderna inom många av fysikens ämnen så som värme, väder och densitet.
   Använd enkel svenska och inga avancerade exempel, kursen är för barn i åldrarna 12-13 med begränsade svenskakunskaper. 
-questions_per_skill: 5
+
+  Målen med kursen är:
+    - Du ska kunna förstå, använda och förklara begreppen: massa, volym, densitet, absoluta nollpunkten, värme
+    - Du ska kunna beräkna densiteten för olika objekt
+    - Du ska kunna hur utvidgning av material påverkar olika konstruktioner
+    - Du ska kunna hur värme sprids
+    - Du ska kunna hur en termos fungerar
+    - Du ska kunna hur vindar uppstår
+    - Du ska kunna hur sjöbris uppstår
+
+questions_per_skill: 1
 
 unit_1:
-  unit_name: Värme och Väder
+  unit_name: Temperatur del 1
 
   page_1:
     page_name: Värme
     skills:
       - Veta vad som menas med värme (värme är rörelse, objekt utvidgas när de blir varma)
+      - Veta hur värme påverkar olika material
       - Känna till varför varma objekt expanderar (grundläggande om atomer och molekyler, rörelseenergi)
+      - Känna till celsius, farenheit och kelvinskalan
+      - Förstå absoluta nollpunkten med avseende på kelvinskalan
+      - Känna till begreppet värmeenergi
