@@ -1,0 +1,119 @@
+Unit_name: Intro to Golang & Basic Concurrency
+Page_name: What is parallelism and concurrency?
+
+1. Which term best describes executing multiple tasks at the same time?
+
+    A) Sequential Programming
+    - Incorrect. Sequential programming describes a style of programming where the tasks are performed one after another.
+  
+    B) Parallel Programming
+    - Correct. Parallel programming describes a style of programming where multiple tasks can be physically executed at the same time on different cores.
+
+    C) Concurrent Programming
+    - Incorrect. Concurrent programming is primarily concerned with the complexity of managing multiple tasks, even if they are not run at the same time.
+
+2. Which term refers to the organization and coordination of a multitude of independent tasks?
+
+    A) Parallel Programming
+    - Incorrect. Parallel programming is oriented more towards harnessing multiple cores to boost computation speed, rather than organizing and coordinating tasks.
+
+    B) Sequential Programming
+    - Incorrect. Sequential programming performs tasks one at a time, in a set order. It doesn’t have to manage interaction between tasks.
+
+    C) Concurrent Programming
+    - Correct. Concurrent programming is about managing multiple tasks which may or may not run in parallel, and coordinating their progress so they do not clash.
+
+3. Examine the following Go code.
+
+```Go
+go funcA()
+go funcB()
+```
+
+What is the most ordinary outcome of running this code?
+
+    A) Functions will run in the order they are written
+    - Incorrect. The 'go' keyword launches goroutines that do not have a deterministic order of execution.
+
+    B) Functions will run concurrently
+    - Correct. When launched with the 'go' keyword, these functions will execute as independent goroutines concurrently.
+
+    C) Functions will run sequentially
+    - Incorrect. The `go` keyword is specifically used in Go to allow functions to operate concurrently, not sequentially.
+
+4. What advantage does concurrent programming have?
+
+    A) Programs run faster
+    - Incorrect. Concurrent programming may seem to speed up execution, but it primarily makes it possible for programs to effectively handle multiple tasks.
+
+    B) Programs are easier to write
+    - Incorrect. Typically, concurrent programming adds complexity and requires careful coordination to avoid problems like race conditions.
+
+    C) Programs can process multiple tasks seemingly simultaneously
+    - Correct. Concurrent programming strengthens handling of multiple tasks, even when tasks need to wait for other operations like I/O to complete.
+
+5. What is the purpose of channels in Go?
+
+    A) To manage memory usage
+    - Incorrect. Channels are used for communication and synchronization between goroutines, not for memory management.
+
+    B) To facilitate communication between goroutines
+    - Correct. Channels in Go help to synchronize execution and share data between goroutines.
+
+    C) To speed up individual instruction execution
+    - Incorrect. Channels don’t speed up the execution time of individual instructions, but they allow multiple instructions from different goroutines to effectively interleave their execution.
+
+6. What is the key characteristic of parallel programming?
+
+    A) Ability to perform multiple tasks simultaneously on multiple cores
+    - Correct. Parallel programming allows multiple tasks or several parts of a unique task to run simultaneously on multiple cores or processors.
+
+    B) Dealing with multiple tasks at once
+    - Incorrect. Dealing with multiple tasks at once pertains to concurrency where tasks may appear to run at the same time, but don't necessarily do so.
+
+    C) Programs that never block
+    - Incorrect. Even in parallel programming, blocking can occur. The significant factor is simultaneous execution on different cores.
+
+7. What is the main difference between concurrency and parallelism?
+
+    A) How tasks are processed
+    - Correct. The distinction between concurrency and parallelism lies in task processing: concurrency coordinates multiple tasks, parallelism performs tasks simultaneously.
+  
+    B) The strategies used for task scheduling
+    - Incorrect. Task scheduling strategies form part of both concurrency and parallelism but do not fundamentally distinguish the two.
+
+    C) The manner in which tasks share data
+    - Incorrect. Shared data can feature in both, but how it is done does not distinguish concurrency from parallelism.
+
+8. In sequential programming, what describes the order of operations?
+
+    A) Operations are completed concurrently
+    - Incorrect. In sequential programming, operations are executed one by one, not concurrently.
+  
+    B) Operations are completed simultaneously
+    - Incorrect. Sequential programming involves performing operations one at a time, not simultaneously.
+
+    C) Operations are completed in the sequence they are written
+    - Correct. In sequential programming, operations are processed one after the other, in the order they are written in the code.
+
+9. In Go, what feature facilitates parallelism?
+
+    A) Interfaces
+    - Incorrect. Interfaces in Go, while useful, do not directly facilitate parallel execution.
+
+    B) Goroutines
+    - Correct. Goroutines are lightweight threads of execution that can run on different cores thus facilitating parallelism.
+
+    C) Pointers
+    - Incorrect. Pointers in Go, while important in controlling memory, don’t have a direct relationship with facilitating parallel execution.
+
+10. Why are goroutines considered lightweight?
+
+    A) They use lesser system resources compared to traditional threads
+    - Correct. Goroutines are lightweight because they use less memory and threads, reducing the system resources needed for concurrent tasks.
+
+    B) They can be written in fewer lines of code
+    - Incorrect. The 'weight' of goroutines refers to their system resource requirements, not the amount of code used to write them.
+
+    C) They execute instructions faster than normal functions
+    - Incorrect. Goroutines do not execute instructions faster than a single-threaded program; their strength is in dealing with multiple tasks efficiently, not in speeding up individual task execution time.
