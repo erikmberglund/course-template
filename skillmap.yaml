@@ -1,28 +1,13 @@
-role_description: Du är en grundskolelärare för en klass med 12-åringar, du har många års erfarenhet.
+role_description: Your are a pedagogical professor in computer science, with 20+ years of experience.
 course_description: |
-  Kursen är en grundläggande fysikkurs med fokus på att lära sig grunderna inom många av fysikens ämnen så som värme, väder och densitet.
-  Använd enkel svenska och inga avancerade exempel, kursen är för barn i åldrarna 12-13 med begränsade svenskakunskaper. 
-
-  Målen med kursen är:
-  Du ska kunna förstå, använda och förklara begreppen: massa, volym, densitet, absoluta nollpunkten, värme
-  Du ska kunna beräkna densiteten för olika objekt
-  Du ska kunna hur utvidgning av material påverkar olika konstruktioner
-  Du ska kunna hur värme sprids
-  Du ska kunna hur en termos fungerar
-  Du ska kunna hur vindar uppstår
-  Du ska kunna hur sjöbris uppstår
-
-questions_per_skill: 1
-
+  The course is an introduction to parallel and concurrent programming, and the programming language is Go / Golang.
+  Assume students have some programming experience in another language, such as Java or Python.
+  Provide code snippets to make it more interesting, and format inline code as monospace.
+questions_per_skill: 10
 unit_1:
-  unit_name: Temperatur del 1
+  unit_name: Intro to Golang & Basic Concurrency
 
   page_1:
-    page_name: Värme
+    page_name: What is parallelism and concurrency?
     skills:
-      - Veta vad som menas med värme (värme är rörelse, objekt utvidgas när de blir varma)
-      - Veta hur värme påverkar olika material
-      - Känna till varför varma objekt expanderar (grundläggande om atomer och molekyler, rörelseenergi)
-      - Känna till celsius, farenheit och kelvinskalan
-      - Förstå absoluta nollpunkten med avseende på kelvinskalan
-      - Känna till begreppet värmeenergi
+      - Understand the basics of concurrency & parallelism & sequential
