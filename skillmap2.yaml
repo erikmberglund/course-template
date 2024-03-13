@@ -1,0 +1,68 @@
+role_description: Du är en grundskolelärare för en klass med 12-åringar, du har många års erfarenhet.
+course_description: |
+  Kursen är en grundläggande fysikkurs med fokus på att lära sig grunderna inom många av fysikens ämnen så som värme, väder och densitet.
+  Använd enkel svenska och inga avancerade exempel, kursen är för barn i åldrarna 12-13 med begränsade svenskakunskaper. 
+  Målen med kursen är:
+  Du ska kunna förstå, använda och förklara begreppen: massa, volym, absoluta nollpunkten, värme
+  Du ska kunna hur utvidgning av material påverkar olika konstruktioner
+  Du ska kunna hur värme sprids
+  Du ska kunna hur en termos fungerar
+  Du ska kunna hur vindar uppstår
+  Du ska kunna hur sjöbris uppstår
+  Du ska kunna resonera kring orsaker och konsekvenser av ökad medeltemperatur på jorden
+  Du ska kunna använda kunskaper inom området för att ta ställning och motivera ditt val
+  Du ska kunna källkritiskt granska information
+questions_per_skill: 1
+unit_1:
+  unit_name: Temperatur del 1
+
+  page_1:
+    page_name: Värme och rörelse
+    skills:
+      - Veta vad som menas med att värme är rörelse
+      - Veta hur värme påverkar olika material. Att partiklar inte kan röra sig fritt i is och järn men i luft rör de sig friare
+      - Känna till varför varma objekt expanderar och konceptet värmeutvidgning
+      - Känna till begreppet värmeenergi
+      - Förstå varför locket på syltburken som sitter fast går att öppna ifall vi spolar varmt vatten på den
+      - Förstå att partiklar sprids i luften och i vatten, specifikt att koldioxid som släpps ut i Sverige påverkar hela jordens atmosfär och att svavel från kol- och oljeeldning i norra EUropa sprids till Skandinavien
+unit_2:  
+  unit_name: Vatten och temperatur
+  page_1:
+    page_name: Vatten och temperatur
+    skills:
+      - Känna till att vatten har sin högsta densitet vid +4 grader Celsius, vilket särskiljer vatten från andra ämnen
+      - Förstå att djupa sjöar inte kan bottenfrysa eftersom vattentemperaturen alltid är 4 grader Celius på botten
+      - Känna till celsius, farenheit och kelvinskalan 
+      - Veta vilken temperaturskala vi använder i Sverige.
+      - Förstå hur en vätsketermometer fungerar
+      - Förklara vid vilken temepratur is smälter respektive vatten kokar
+      - Förstå absoluta nollpunkten med avseende på kelvinskalan
+  page_2:
+    page_name: Värmeenergi 
+    skills:
+      - Veta vilken enhet som används för att mäta energi (joule) 
+      - Förstå att mängden värmeenergi som finns i ett material beror på materialets temperatur, vilket material det är och mängden material
+unit_3:  
+  unit_name: Värmetransport
+  page_1:
+    page_name: Värmetransport
+    skills:
+      - Känna till de tre faserna ett ämne kan ha (fast, flytande, gas)
+      - Veta på vilka tre sätt ett värme kan tranpsorteras (värmeledning, värmeströmning, värmestrålning)
+      - Kunna begreppen smältning, förångning, kondensering och stelning
+      - Förstå att ett ämne kan byta fas men att det fortfarande är samma ämne
+      - Förstå att vissa ämnen leder värme bättre än andra, med exempel på t.ex att man bränner sig på 80 gradig metall men ej 80-gradig luft
+      - Kunna förklara hur värme kan isoleras och hur en termos fungerar
+unit_4:
+  unit_name: Meteorologi
+  page_1: 
+    page_name: Meteorologi 
+    skills:
+      - Varför rör sig luften? (Luften värms upp och stiger och kyls därefter ner och sjunker)
+      - Förklara att solen inte värmer luften direkt utan att solen värmer jordytan som sedan värmer luften underifrån av marken
+      - Ge några exmempel på omständigheter som påverkar vädret (luftfuktighet, havsuppvärmning respekive landuppvärmning)
+      - Hur bildas lågtryck och högtryck?
+      - I vilken enhet mäter man vindhastigheten?
+      - Du ska kunna hur sjöbris uppstår
+        
+
