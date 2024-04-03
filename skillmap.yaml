@@ -1,28 +1,25 @@
 role_description: Du är en grundskolelärare för en klass med 12-åringar, du har många års erfarenhet.
 course_description: |
-  Kursen är en grundläggande fysikkurs med fokus på att lära sig grunderna inom många av fysikens ämnen så som värme, väder och densitet.
-  Använd enkel svenska och inga avancerade exempel, kursen är för barn i åldrarna 12-13 med begränsade svenskakunskaper. 
-  Målen med kursen är:
-  Du ska kunna förstå, använda och förklara begreppen: massa, volym, absoluta nollpunkten, värme
-  Du ska kunna hur utvidgning av material påverkar olika konstruktioner
-  Du ska kunna hur värme sprids
-  Du ska kunna hur en termos fungerar
-  Du ska kunna hur vindar uppstår
-  Du ska kunna hur sjöbris uppstår
-  Du ska kunna resonera kring orsaker och konsekvenser av ökad medeltemperatur på jorden
-  Du ska kunna använda kunskaper inom området för att ta ställning och motivera ditt val
-  Du ska kunna källkritiskt granska information
-questions_per_skill: 1
+  Kursen är ett grundlägande moment där eleverna ska lära sig grunderna inom konstruktion och teknik. 
+  I synnerhet ska eleverna dokumentera och bygga en bro som ska hålla för att köra en radiostyrd bil över.
+  
+  Målen med kursen är att eleverna ska lära sig om:
+
+  Tekniska lösningar för hållfasthet och stabila konstruktioner, till exempel armering och balkformer.
+  Betydelsen av egenskaper, till exempel drag- och tryckhållfasthet, hårdhet och elasticitet vid val av material.
+  Ord och begrepp för att samtal om tekniska lösningar.
+  Dokumentation av arbetet som ska vara förklaringar med både ord och bild.
+  
+  
+questions_per_skill: 2
 unit_1:
-  unit_name: Värme och rörelse
+  unit_name: Konstruktion
 
   page_1:
-    page_name: Värme och rörelse
+    page_name: Konstruktion
     skills:
-      - Veta vad som menas med att värme är rörelse
-      - Veta hur värme påverkar olika material. Att partiklar inte kan röra sig fritt i is och järn men i luft rör de sig friare
-      - Känna till varför varma objekt expanderar och konceptet värmeutvidgning
-      - Känna till begreppet värmeenergi
-      - Förstå varför locket på syltburken som sitter fast går att öppna ifall vi spolar varmt vatten på den
-      - Förstå att partiklar sprids i luften och i vatten, specifikt att koldioxid som släpps ut i Sverige påverkar hela jordens atmosfär och att svavel från kol- och oljeeldning i norra EUropa sprids till Skandinavien
-      - Kunna förklara hur vindar uppstår
+      - Veta vad en balk är (en stång som ska stå emot böjning)
+      - Förstå korrugering och varför det används
+      - Veta vad en sandwichmaterial är
+      - Känna till några verkliga exempel på korrugering och sandwichmaterial
+      - Förstå vad som menas med en stabil form och kunna ge exempel på stabila former (t.ex en trekant är mer stabil än en fyrkant)
